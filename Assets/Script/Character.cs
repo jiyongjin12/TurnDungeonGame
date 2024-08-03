@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    public CharacterData ii;
-    public int num;
+    public string name;
+    public int Damage;
+    public int hp;
+    public int speed;
 }

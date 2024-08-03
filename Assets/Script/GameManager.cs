@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
         StartCoroutine(DownloadCharacterData());
     }
 
-
     #region 스크립터블 오브젝트
 
     [SerializeField] CharacterData characterData;
@@ -39,7 +38,7 @@ public class GameManager : MonoBehaviour
                 Character.name = column[0];
                 Character.hp = int.Parse(column[1]);
                 Character.speed = int.Parse(column[2]);
-                Character.Damage = int.Parse(column[3]);
+                Character.damage = int.Parse(column[3]);
 
             }
         }
