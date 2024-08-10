@@ -14,18 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterStatsList:
   - name: Lize
-    Damage: 10
+    damage: 10
     hp: 100
     speed: 10
+    critical: 0
+    accuracy: 0
+    resistance: 0
+    defense: 0
+    avoidance: 0
+    mental: 0
   - name: Tabi
-    Damage: 15
+    damage: 15
     hp: 75
     speed: 12
+    critical: 0
+    accuracy: 0
+    resistance: 0
+    defense: 0
+    avoidance: 0
+    mental: 0
   - name: Hina
-    Damage: 20
+    damage: 20
     hp: 50
     speed: 15
+    critical: 0
+    accuracy: 0
+    resistance: 0
+    defense: 0
+    avoidance: 0
+    mental: 0
   - name: Shiro
-    Damage: 10
+    damage: 10
     hp: 120
     speed: 5
+    critical: 0
+    accuracy: 0
+    resistance: 0
+    defense: 0
+    avoidance: 0
+    mental: 0
