@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 192010066}
   - component: {fileID: 192010065}
   - component: {fileID: 192010067}
+  - component: {fileID: 192010068}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -221,10 +222,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: 5b98b47485863bb4bb8dc6176a966914, type: 2}
+  Speed: {fileID: 192010068}
   Num: 0
   name: ddd
   maxHp: 0
-  maxSpeed: 0
   maxDamage: 0
   Defense: 0
   Mental: 0
@@ -232,6 +233,19 @@ MonoBehaviour:
   Accuracy: 0
   Resistance: 0
   Avoidance: 0
+--- !u!114 &192010068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192010064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d77a5da973f1489be0b59a1d92a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &322097114
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +544,7 @@ GameObject:
   - component: {fileID: 552839344}
   - component: {fileID: 552839343}
   - component: {fileID: 552839345}
+  - component: {fileID: 552839346}
   m_Layer: 0
   m_Name: E3
   m_TagString: Untagged
@@ -617,10 +632,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: bb39d9f22d8eed94cbb123868d166e76, type: 2}
+  Speed: {fileID: 552839346}
   Num: 2
   name: 
   maxHp: 0
-  maxSpeed: 0
   maxDamage: 0
   Defense: 0
   Mental: 0
@@ -628,6 +643,19 @@ MonoBehaviour:
   Accuracy: 0
   Resistance: 0
   Avoidance: 0
+--- !u!114 &552839346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552839342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d77a5da973f1489be0b59a1d92a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &570116522
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,6 +906,7 @@ GameObject:
   - component: {fileID: 814908452}
   - component: {fileID: 814908451}
   - component: {fileID: 814908453}
+  - component: {fileID: 814908454}
   m_Layer: 0
   m_Name: E1
   m_TagString: Untagged
@@ -965,10 +994,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: bb39d9f22d8eed94cbb123868d166e76, type: 2}
+  Speed: {fileID: 814908454}
   Num: 0
   name: 
   maxHp: 0
-  maxSpeed: 0
   maxDamage: 0
   Defense: 0
   Mental: 0
@@ -976,6 +1005,19 @@ MonoBehaviour:
   Accuracy: 0
   Resistance: 0
   Avoidance: 0
+--- !u!114 &814908454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814908450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d77a5da973f1489be0b59a1d92a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &845897961
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,6 +1029,7 @@ GameObject:
   - component: {fileID: 845897963}
   - component: {fileID: 845897962}
   - component: {fileID: 6846945079195161096}
+  - component: {fileID: 6846945079195161097}
   m_Layer: 0
   m_Name: 3
   m_TagString: Untagged
@@ -1072,6 +1115,7 @@ GameObject:
   - component: {fileID: 914012234}
   - component: {fileID: 914012233}
   - component: {fileID: 4001019332467104856}
+  - component: {fileID: 4001019332467104857}
   m_Layer: 0
   m_Name: 2
   m_TagString: Untagged
@@ -1212,6 +1256,7 @@ GameObject:
   - component: {fileID: 1162621153}
   - component: {fileID: 1162621152}
   - component: {fileID: 5066194234530270111}
+  - component: {fileID: 5066194234530270112}
   m_Layer: 0
   m_Name: 4
   m_TagString: Untagged
@@ -1427,6 +1472,7 @@ GameObject:
   - component: {fileID: 1626106410}
   - component: {fileID: 1626106409}
   - component: {fileID: 1626106411}
+  - component: {fileID: 1626106412}
   m_Layer: 0
   m_Name: E4
   m_TagString: Untagged
@@ -1514,10 +1560,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: bb39d9f22d8eed94cbb123868d166e76, type: 2}
+  Speed: {fileID: 1626106412}
   Num: 3
   name: 
   maxHp: 0
-  maxSpeed: 0
   maxDamage: 0
   Defense: 0
   Mental: 0
@@ -1525,6 +1571,19 @@ MonoBehaviour:
   Accuracy: 0
   Resistance: 0
   Avoidance: 0
+--- !u!114 &1626106412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626106408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d77a5da973f1489be0b59a1d92a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &1661793077
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,6 +1595,7 @@ GameObject:
   - component: {fileID: 1661793079}
   - component: {fileID: 1661793078}
   - component: {fileID: 1661793080}
+  - component: {fileID: 1661793081}
   m_Layer: 0
   m_Name: E2
   m_TagString: Untagged
@@ -1623,10 +1683,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: bb39d9f22d8eed94cbb123868d166e76, type: 2}
+  Speed: {fileID: 1661793081}
   Num: 1
   name: 
   maxHp: 0
-  maxSpeed: 0
   maxDamage: 0
   Defense: 0
   Mental: 0
@@ -1634,6 +1694,19 @@ MonoBehaviour:
   Accuracy: 0
   Resistance: 0
   Avoidance: 0
+--- !u!114 &1661793081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661793077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d77a5da973f1489be0b59a1d92a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &1767394270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,16 +1845,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffd32eda08da62b4286f51ad7548ed6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  players:
-  - {fileID: 192010067}
-  - {fileID: 4001019332467104856}
-  - {fileID: 6846945079195161096}
-  - {fileID: 5066194234530270111}
-  enemies:
-  - {fileID: 814908453}
-  - {fileID: 1661793080}
-  - {fileID: 552839345}
-  - {fileID: 1626106411}
+  sequenceSpeed:
+  - {fileID: 192010068}
+  - {fileID: 4001019332467104857}
+  - {fileID: 6846945079195161097}
+  - {fileID: 5066194234530270112}
+  - {fileID: 814908454}
+  - {fileID: 1661793081}
+  - {fileID: 552839346}
+  - {fileID: 1626106412}
+  turnSequence: []
 --- !u!4 &2089232296
 Transform:
   m_ObjectHideFlags: 0
@@ -1810,10 +1883,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: 5b98b47485863bb4bb8dc6176a966914, type: 2}
+  Speed: {fileID: 4001019332467104857}
   Num: 1
   name: 
   maxHp: 0
-  maxSpeed: 0
   maxDamage: 0
   Defense: 0
   Mental: 0
@@ -1821,6 +1894,19 @@ MonoBehaviour:
   Accuracy: 0
   Resistance: 0
   Avoidance: 0
+--- !u!114 &4001019332467104857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914012232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d77a5da973f1489be0b59a1d92a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!114 &5066194234530270111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1834,10 +1920,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: 5b98b47485863bb4bb8dc6176a966914, type: 2}
+  Speed: {fileID: 5066194234530270112}
   Num: 3
   name: 
   maxHp: 0
-  maxSpeed: 0
   maxDamage: 0
   Defense: 0
   Mental: 0
@@ -1845,6 +1931,19 @@ MonoBehaviour:
   Accuracy: 0
   Resistance: 0
   Avoidance: 0
+--- !u!114 &5066194234530270112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162621151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d77a5da973f1489be0b59a1d92a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!114 &6846945079195161096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1858,10 +1957,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterData: {fileID: 11400000, guid: 5b98b47485863bb4bb8dc6176a966914, type: 2}
+  Speed: {fileID: 6846945079195161097}
   Num: 2
   name: 
   maxHp: 0
-  maxSpeed: 0
   maxDamage: 0
   Defense: 0
   Mental: 0
@@ -1869,3 +1968,16 @@ MonoBehaviour:
   Accuracy: 0
   Resistance: 0
   Avoidance: 0
+--- !u!114 &6846945079195161097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845897961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d77a5da973f1489be0b59a1d92a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
